@@ -13,7 +13,7 @@
       "spacing": "medium",
       "size": "default",
       "weight": "bolder",
-      "text": "Welcome to Bot Framework!",
+      "text": "Welcome to Collab services",
       "wrap": true,
       "maxLines": 0
     },
@@ -21,7 +21,7 @@
       "type": "TextBlock",
       "size": "default",
       "isSubtle": "yes",
-      "text": "Now that you have successfully run your bot, follow the links in this Adaptive Card to expand your knowledge of Bot Framework.",
+      "text": "Explore the bot to know more about the services offered.",
       "wrap": true,
       "maxLines": 0
     }
@@ -29,18 +29,23 @@
   "actions": [
     {
       "type": "Action.OpenUrl",
-      "title": "Get an overview",
-      "url": "https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0"
+      "title": "SPO365 Site Services",
+      "url": "https://unilever.sharepoint.com/sites/SPO365SiteServices/Pages/Home.aspx"
     },
     {
       "type": "Action.OpenUrl",
-      "title": "Ask a question",
-      "url": "https://stackoverflow.com/questions/tagged/botframework"
+      "title": "Collaboration help and support",
+      "url": "https://www.yammer.com/unilever.com/#/threads/inGroup?type=in_group&feedId=16394375"
     },
     {
       "type": "Action.OpenUrl",
-      "title": "Learn how to deploy",
-      "url": "https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-deploy-azure?view=azure-bot-service-4.0"
+      "title": "Check out reusable components catalogue",
+      "url": "https://unilever.sharepoint.com/sites/CSC/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Raise new project request",
+      "url": "https://unilever.sharepoint.com/sites/SPO365SiteServices/Lists/ProjectFunnel/NewForm.aspx"
     }
   ]
 }
